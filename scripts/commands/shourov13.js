@@ -8,7 +8,7 @@ module.exports = {
 	credits: "nayan", 
 	description: "Fun",
 	category: "no prefix",
-	usages: "😒",
+	usages: "🥰",
         cooldowns: 5, 
 },
 
@@ -18,8 +18,8 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🥰")==0) {
 		var msg = {
-				body: "এঁভাঁবেঁ তাঁকাঁসঁ নাঁ প্রেঁমেঁ পঁরেঁ যাঁবোঁ 😚🥀",
-				attachment: fs.createReadStream(__dirname + `/Nayan/`)
+				body: "এ্ঁতো্ঁ ভা্ঁলো্ঁবা্ঁসা্ঁ কো্ঁই্ঁ পা্ঁও্ঁ আ্ঁমা্ঁর্ঁ ব্ঁস্ঁ সৌ্ঁর্ঁভ্ঁ কে্ঁ এ্ঁক্ঁটু্ঁ দা্ঁও্ঁ🥰🥀",
+				attachment: fs.createReadStream(__dirname + `/Nayan/এতো ভালোবাসা কই পাও .m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("😁", event.messageID, (err) => {}, true)
