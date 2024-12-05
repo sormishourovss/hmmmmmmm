@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("mehejabin")==0 || body.indexOf("😍")==0 || body.indexOf(":")==0 || body.indexOf("মায়া")==0 || body.indexOf("Maya")==0 || body.indexOf("Maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0) {
 		var msg = {
-				body: "https://i.imgur.com/5MHDlOP.mp4",
+				body: "𝐊𝐢𝐧𝐠_𝐒𝐡𝐨𝐮𝐫𝐨𝐯",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
