@@ -19,18 +19,18 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/THk8hul.jpeg",
+var link = ["https://imgur.com/wey3BPx",
 
-            "https://i.imgur.com/Gas6EM7.jpeg", 
+            "https://imgur.com/wey3BPx", 
 
-            "https://i.imgur.com/ymHWOTm.jpeg",
+            "https://imgur.com/wey3BPx",
 
-"",
+"https://imgur.com/wey3BPx",
 
-            "https://i.imgur.com/Gas6EM7.jpeg"];
+            https://imgur.com/wey3BPx"]
 
 var callback = () => api.sendMessage({body:`আসসালামু আলাইকুম 
-"༆◥⃧⃜ؖؖؖؖ⃝ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺প⋆⃝🌸࿐" 
+"༆𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺ভালোবাসার ক্যাম্পাস🌸࿐" 
 ফ্যামেলি গ্রুপের কলিজার ভাই/বোন__😊🍒 
 
 আমাদের গ্রুপে আসার জন্য আপনাকে অনেক ধন্যবাদ______!!🍒😘    
@@ -45,8 +45,8 @@ var callback = () => api.sendMessage({body:`আসসালামু আলা�
 আপনাকে বক্সের রুলস অনুযায়ী রিমুভ করতে বাধ্য হবে_______💚🍒
   
 
-༆◥⃧⃜ؖؖؖؖ⃝ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺𝄞⋆⃝🌸࿐ ফ্যামেলি গ্ৰুপের পক্ষ থেকে আপনাকে  জানায় ভালবাসা  অভিরাম_____💯🌸
+༆𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺ভালোবাসার ক্যাম্পাস🌸࿐ ফ্যামেলি গ্ৰুপের পক্ষ থেকে আপনাকে  জানায় ভালবাসা  অভিরাম_____💯🌸
 
-          🌸💯______𝐂𝐄𝐎______💯🌸 ............ .  Md Fahim islam`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+          🌸💯______𝐂𝐄𝐎______💯🌸 ............ .  𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
