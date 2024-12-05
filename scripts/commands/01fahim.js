@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("সৌরভ")==0 || body.indexOf("shourov")==0 || body.indexOf("love")==0 || body.indexOf("মায়া")==0 || body.indexOf("Maya")==0 || body.indexOf("Maya")==0 || body.indexOf("Shourov")==0 || body.indexOf("SHOUROV")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0) {
 		var msg = {
-				body: "Md Fahim islam",
+				body: "𝐊𝐢𝐧𝐠_𝐒𝐡𝐨𝐮𝐫𝐨𝐯",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
